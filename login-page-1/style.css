@@ -14,7 +14,6 @@ body {
 .header {
 	height: 20vh;
 	width: 100%;
-
 }
 
 .header-img{
@@ -26,40 +25,82 @@ body {
 }
 .header-img img{
 	height: 100%;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.auth {
+	height: 60%;
+}
+.auth-form{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.auth-form-ra, .auth-form-senha {
+	width: 85%;
+	height: 10%;
+	display: flex;
+	padding: 2%;
+	margin-bottom: 6%;
+	box-shadow: 0px 0px 30px 0px rgba(158, 153, 153, 0.72);
+	background-color: white;
+	border-radius: 100px;
+}
+.auth-form-ra img{
+	margin-right: 2%;
+	height: 100%;
+	margin-left: 4%;
+	width: auto;
+}
+.auth-form-senha img {
+	margin-right: 2%;
+	margin-left: 4%;
+	height: 100%;
+	width: auto;
+}
+.auth-form input[type = text]{
+	width: 100%;
+	padding: 2%;
+	font-size: 50px;
+	outline: 0;
+	border-style: none;
+}
+.auth-form input[type = submit]{
+	width: 40%;
+	padding: 3%;
+	box-shadow: 0px 0px 30px 0px rgba(158, 153, 153, 0.72);
+	font-size: 50px;
+	outline: 0;
+	font-weight: bolder;
+	border-style: none;
+	background-color: #4373ed;
+	border-radius: 100px;
+	color: white;
+}
 .footer {
-	height: 30vh;
+	height: 40%;
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
 }
 
 .footer-box {
-	position: fixed;
-	z-index: 10;
-	height: 85%;
+	height: 70%;
 	width: 100%;
 	background-color: #4373ed;
 }
-.footer img{
-	position: absolute;
-	z-index: 1;
+.footer-img{
+	background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 60%, rgba(67,114,235,1) 72%);
+	height: 30%;
+	width: 100% !important;
+}
+.auth-form-login{
+	width: 85%;
+	display: flex;
+	justify-content: flex-end;
+}
+.footer-img img {
 	width: 100%;
 	height: auto;
 }
