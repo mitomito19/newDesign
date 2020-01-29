@@ -10,9 +10,9 @@ body {
 	padding-top: 4%;
 	padding-left: 4%;
 	width: 95%;
-	height: 10%;
+	height: 4%;
 	color: white;
-	font-size: 26px;
+	font-size: 20px;
 	font-weight: bolder;
 }
 .header-menu img{
@@ -20,209 +20,23 @@ body {
 	height: 100%;
 	width: auto;
 }
-.header-form{
-	padding: 4%;
-	width: 92%;
-	height: 20%;
-	display: flex;
-	justify-content: center;
-}
-.header-form-input{
-	box-shadow: -13px 9px 20px 0px #737373de;
-	border-radius: 100px;
-	width: 90%;
-	background-color: white;
-	display: flex;
-}
-.header-form-input input {
-	outline: 0;
-	border-style: none;
-	border-radius: 100px;
-	width: 80%;
-	padding-left: 5%; 
-	font-size: 50px;
-}
-.header-form-logo {
-	margin: 2%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 15%;
-	border-radius: 100px;
-	background-color: #444;
-}
-.header-form-logo img {
-	height: 60%;
-	width: auto;
-	
-}
+
 .header{
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	height: 35vh;
-	background-color: #33bc72;
-}
-.header-text-menu h1{
-	font-weight: bolder;
-	font-size: 40px;
-}
-.header-img{
-	top: 34vh;
 	z-index: -1;
 	position: absolute;
 	width: 100%;
-}
-.heder-img img{
-	width: 100%;
-	height: auto;
-}
-.header-days {
-	justify-content: center;
-	width: 100%;
-	align-items: center;
-	display: flex;
-	height: 70%;
-}
-.day{
-	box-shadow: 0px 6px 9px 2px rgba(0,0,0,0.25);
-	padding: 2% 4%;
-	height: 70%;
-	border-radius: 25px;
 	display: flex;
 	flex-direction: column;
-	font-weight: bolder;
-	color: white;
-	font-size: 40px;
-}
-.day .h1{
-	height: 50%;
-	display: flex;
-	justify-content: center;
-	align-items: flex-start;
-}
-.day .p{
-	justify-content: center;
-	display: flex;
-	align-items: flex-start;
-	height: 50%;
-}
-.day-1{
-	color: #444;
-	margin-right: 5%;
-	background-color: white;
-}
-.day-2{
-	margin-right: 5%;
-	background-color: #444;
-}
-.day-3{
-	background-color: #4caac3;
-}
-.content {
-	height: 50vh;
-	padding-top: 25%;
-}
-
-.filterprof {
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-}
-.prof {
-	margin-bottom: 4%;
-	color: #444;
-	padding: 2%;
-	border-radius: 13px;
-	width: 70%;
-	box-shadow: 0px 6px 9px 2px rgba(0,0,0,0.25);
-	display: flex;
-	flex-direction: column;
-	font-size: 30px;
-}
-.title-prof{
-	font-weight: bolder;
-	font-size: 50px; 
-}
-.class{
-
-	width: 100%;
-}
-.class-title{
-
-	margin-top: 4%;
-	padding-left: 4%;
-	font-weight: bolder;
-	color: #444;
-}
-.class-title h1 {
-	padding: 0;
-	margin: 0;
-	font-size: 70px;
-}
-.hr{
-	margin-top: 2%;
-	width: 15%;
-	background-color: #33bc72;
-	height: 10px;
-}
-.class-aulas{
-	margin-top: 4%;
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.aula {
-	text-align: center;
-	box-shadow: -13px 7px 20px 1px rgba(0, 0, 0, 0.56);
-	width: 25%;
-	border-radius: 43px;
-	display: flex;
-	justify-content: space-between;
-	flex-direction: column;
-	font-weight: bolder;
-	color: #444;
-	font-size: 40px;
-}
-.aula-1{
-	color: #444;
-	margin-right: 5%;
-	background-color: white;
-}
-.aula-2{
-	color: white;
-	margin-right: 5%;
+	height: 75vh;
 	background-color: #4373ed;
 }
-.aula-3{
-	color: white;
-	background-color: #4caac3;
-}
-.aula-serie{
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
-	padding: 15% 0;
-	font-size: 60px;
-	font-weight: bolder;
-}
-.aula-serie div:last-child{
-	font-size: 50px;
-	font-weight: normal;
-}
-.aula-sala-horario{
-	border-radius: 43px;
-	padding: 10% 0;
+
+.content {
+	box-shadow: 0px -8px 20px #00000047;
+	position: relative;
+	top: 60vh;
+	border-radius: 55px 55px 0 0;
+	z-index: 4;
+	height: 40vh;
 	background-color: white;
-	color: #444;
-	font-size: 50px;
-	font-weight: bolder;
-}
-.aula-1 .aula-sala-horario{
-	background-color: #444;
-	color: white;
 }
